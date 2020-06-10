@@ -1,15 +1,16 @@
 <?php
 
-class Pages extends Controller{
+class About extends Controller{
 
 public function __construct()
 {
-    // echo "Default Page";
+     echo "About Page";
 }
 
 public function index(){
 
-   
+    $this->view('about');
+
 
 }
 
